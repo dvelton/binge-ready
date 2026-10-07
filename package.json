@@ -1,0 +1,27 @@
+{
+  "name": "binge-ready",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A chronological feed of TV seasons that are ready to binge.",
+  "author": "Dan Velton",
+  "license": "MIT",
+  "homepage": "https://dvelton.github.io/binge-ready/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dvelton/binge-ready.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dvelton/binge-ready/issues"
+  },
+  "scripts": {
+    "refresh": "node scripts/refresh-data.mjs",
+    "serve": "node scripts/serve.mjs",
+    "test": "node --test",
+    "validate": "node scripts/validate-data.mjs",
+    "check": "npm test && npm run validate"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

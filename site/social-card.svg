@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#10100f"/>
+  <circle cx="1030" cy="20" r="360" fill="#f1c75b" opacity=".08"/>
+  <path
+    d="M174 126a92 92 0 1 0 19 128"
+    fill="none"
+    stroke="#f1c75b"
+    stroke-linecap="round"
+    stroke-width="38"
+  />
+  <path d="m186 222 44 33-52 12Z" fill="#f1c75b"/>
+  <text x="110" y="400" fill="#f5f1e8" font-family="Georgia, serif" font-size="108">
+    Binge Ready
+  </text>
+  <text x="116" y="485" fill="#aaa69d" font-family="Arial, sans-serif" font-size="38">
+    Ready now. Coming up. No weekly waiting.
+  </text>
+</svg>

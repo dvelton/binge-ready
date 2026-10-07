@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#10100f">
+    <meta
+      name="description"
+      content="See which TV seasons are ready to binge now and when upcoming seasons finish."
+    >
+    <meta property="og:title" content="Binge Ready">
+    <meta
+      property="og:description"
+      content="TV season finale dates for what is ready now and what is coming up."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dvelton.github.io/binge-ready/">
+    <meta
+      property="og:image"
+      content="https://dvelton.github.io/binge-ready/social-card.svg"
+    >
+    <link rel="canonical" href="https://dvelton.github.io/binge-ready/">
+    <link rel="alternate" type="application/rss+xml" title="Binge Ready" href="feed.xml">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <title>Binge Ready - past and upcoming TV season finale dates</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#feed">Skip to the finale feed</a>
+
+    <header class="hero">
+      <div class="hero__inner">
+        <a class="brand" href="./" aria-label="Binge Ready home">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span>Binge Ready</span>
+        </a>
+        <div class="hero__copy">
+          <p class="eyebrow">No weekly waiting</p>
+          <h1>Start when the season ends.</h1>
+          <p class="hero__lede">
+            See what is complete now and the exact date upcoming seasons are
+            scheduled to become binge-ready.
+          </p>
+        </div>
+        <div class="hero__status" aria-live="polite">
+          <span id="ready-count">Loading</span>
+          <span id="updated-at">Checking the latest finales...</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="Filter the finale feed">
+        <div class="controls__inner">
+          <label class="search">
+            <span class="visually-hidden">Search shows</span>
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="m21 21-4.4-4.4m2.4-5.1a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/>
+            </svg>
+            <input id="search" type="search" placeholder="Search shows" autocomplete="off">
+          </label>
+
+          <div class="view-switch" role="group" aria-label="Finale timing">
+            <button type="button" data-view="ready" class="is-active">Ready now</button>
+            <button type="button" data-view="upcoming">Coming up</button>
+          </div>
+
+          <div
+            class="relevance-switch"
+            role="group"
+            aria-label="Show prominence"
+            title="Major shows use TVMaze popularity plus recognized platforms and networks."
+          >
+            <button type="button" data-relevance="major" class="is-active">Major shows</button>
+            <button type="button" data-relevance="all">All shows</button>
+          </div>
+
+          <div class="range" role="group" aria-label="Finale date range">
+            <button type="button" data-range="7" class="is-active">7 days</button>
+            <button type="button" data-range="30">30 days</button>
+            <button type="button" data-range="90">90 days</button>
+            <button type="button" data-range="all">All</button>
+          </div>
+
+          <div class="selects">
+            <label>
+              <span>Service</span>
+              <select id="service">
+                <option value="">All services</option>
+              </select>
+            </label>
+            <label>
+              <span>Genre</span>
+              <select id="genre">
+                <option value="">All genres</option>
+              </select>
+            </label>
+            <label>
+              <span>Language</span>
+              <select id="language">
+                <option value="">All languages</option>
+              </select>
+            </label>
+            <label>
+              <span>Country</span>
+              <select id="country">
+                <option value="">All countries</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="personal-filters">
+            <label id="hide-watched-control" class="toggle">
+              <input id="saved-only" type="checkbox">
+              <span>Saved only</span>
+            </label>
+            <label class="toggle">
+              <input id="hide-watched" type="checkbox">
+              <span>Hide watched</span>
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <section class="results-summary" aria-live="polite">
+        <p id="result-count">Loading finale data...</p>
+        <button id="clear-filters" type="button" hidden>Clear filters</button>
+      </section>
+
+      <div id="feed" class="feed" tabindex="-1"></div>
+
+      <section id="empty-state" class="empty-state" hidden>
+        <h2>No seasons match these filters.</h2>
+        <p>Try a longer date range or clear one of the filters.</p>
+        <button type="button" data-clear-filters>Clear filters</button>
+      </section>
+
+      <section id="error-state" class="empty-state" hidden>
+        <h2>The finale list could not load.</h2>
+        <p>Refresh the page or try again in a few minutes.</p>
+        <button type="button" data-retry>Try again</button>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <p>
+          Schedule data from
+          <a href="https://www.tvmaze.com/" rel="external">TVMaze</a>
+          under CC BY-SA. Dates can change.
+        </p>
+        <p>
+          Major shows have a TVMaze popularity weight of 98+, or 90+ on a
+          recognized platform or network. Use All shows for the complete feed.
+        </p>
+        <p>No account, analytics, or advertising. Saved and watched choices remain in this browser.</p>
+      </div>
+      <nav aria-label="Project links">
+        <a href="feed.xml">RSS</a>
+        <a href="https://github.com/dvelton/binge-ready">Source</a>
+      </nav>
+    </footer>
+
+    <template id="card-template">
+      <article class="show-card">
+        <div class="show-card__poster-wrap">
+          <img class="show-card__poster" alt="" loading="lazy" width="210" height="295">
+          <div class="show-card__placeholder" aria-hidden="true"></div>
+          <span class="show-card__badge">Ready</span>
+        </div>
+        <div class="show-card__body">
+          <div>
+            <p class="show-card__service"></p>
+            <h3 class="show-card__title"></h3>
+            <p class="show-card__season"></p>
+          </div>
+          <dl class="show-card__facts">
+            <div>
+              <dt>Episodes</dt>
+              <dd class="show-card__episodes"></dd>
+            </div>
+            <div>
+              <dt>Runtime</dt>
+              <dd class="show-card__runtime"></dd>
+            </div>
+          </dl>
+          <p class="show-card__genres"></p>
+          <div class="show-card__actions">
+            <button class="icon-button save-button" type="button"></button>
+            <button class="icon-button watched-button" type="button"></button>
+            <a class="details-link" rel="external">Show details</a>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

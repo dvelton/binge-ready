@@ -1,0 +1,18 @@
+{
+  "name": "Binge Ready",
+  "short_name": "Binge Ready",
+  "description": "See which TV seasons are complete and when upcoming seasons finish.",
+  "start_url": "/binge-ready/",
+  "scope": "/binge-ready/",
+  "display": "standalone",
+  "background_color": "#10100f",
+  "theme_color": "#10100f",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
