@@ -4,7 +4,28 @@
     <title>Binge Ready</title>
     <link>https://dvelton.github.io/binge-ready/</link>
     <description>TV seasons ordered by the date their finales aired.</description>
-    <lastBuildDate>Sat, 24 Oct 2026 12:33:10 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 12:33:12 GMT</lastBuildDate>
+    <item>
+      <title>Adultery - Season 1</title>
+      <link>https://dvelton.github.io/binge-ready/#show-83153-season-1</link>
+      <guid isPermaLink="false">show-83153-season-1:2026-10-25</guid>
+      <pubDate>Sun, 25 Oct 2026 12:00:00 GMT</pubDate>
+      <description>6 episodes are available after the 2026-10-25 finale.</description>
+    </item>
+    <item>
+      <title>Mortimer and Whitehouse: Gone Fishing - Season 9</title>
+      <link>https://dvelton.github.io/binge-ready/#show-37076-season-9</link>
+      <guid isPermaLink="false">show-37076-season-9:2026-10-25</guid>
+      <pubDate>Sun, 25 Oct 2026 12:00:00 GMT</pubDate>
+      <description>6 episodes are available after the 2026-10-25 finale.</description>
+    </item>
+    <item>
+      <title>This City Is Ours - Season 2</title>
+      <link>https://dvelton.github.io/binge-ready/#show-74826-season-2</link>
+      <guid isPermaLink="false">show-74826-season-2:2026-10-25</guid>
+      <pubDate>Sun, 25 Oct 2026 12:00:00 GMT</pubDate>
+      <description>8 episodes are available after the 2026-10-25 finale.</description>
+    </item>
     <item>
       <title>The Hustler&apos;s Gambit - Season 1</title>
       <link>https://dvelton.github.io/binge-ready/#show-95059-season-1</link>
@@ -683,27 +704,6 @@
       <guid isPermaLink="false">show-94197-season-1:2026-10-15</guid>
       <pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate>
       <description>16 episodes are available after the 2026-10-15 finale.</description>
-    </item>
-    <item>
-      <title>Die Lebensretter von Murnau - Season 2</title>
-      <link>https://dvelton.github.io/binge-ready/#show-93961-season-2</link>
-      <guid isPermaLink="false">show-93961-season-2:2026-10-14</guid>
-      <pubDate>Wed, 14 Oct 2026 12:00:00 GMT</pubDate>
-      <description>7 episodes are available after the 2026-10-14 finale.</description>
-    </item>
-    <item>
-      <title>Good Night - Season 1</title>
-      <link>https://dvelton.github.io/binge-ready/#show-86010-season-1</link>
-      <guid isPermaLink="false">show-86010-season-1:2026-10-14</guid>
-      <pubDate>Wed, 14 Oct 2026 12:00:00 GMT</pubDate>
-      <description>10 episodes are available after the 2026-10-14 finale.</description>
-    </item>
-    <item>
-      <title>King of Comedy - Season 1</title>
-      <link>https://dvelton.github.io/binge-ready/#show-81237-season-1</link>
-      <guid isPermaLink="false">show-81237-season-1:2026-10-14</guid>
-      <pubDate>Wed, 14 Oct 2026 12:00:00 GMT</pubDate>
-      <description>24 episodes are available after the 2026-10-14 finale.</description>
     </item>
   </channel>
 </rss>
