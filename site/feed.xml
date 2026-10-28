@@ -4,13 +4,34 @@
     <title>Binge Ready</title>
     <link>https://dvelton.github.io/binge-ready/</link>
     <description>TV seasons ordered by the date their finales aired.</description>
-    <lastBuildDate>Tue, 27 Oct 2026 12:39:38 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 12:29:07 GMT</lastBuildDate>
     <item>
-      <title>Love Village - Season 3</title>
-      <link>https://dvelton.github.io/binge-ready/#show-68454-season-3</link>
-      <guid isPermaLink="false">show-68454-season-3:2026-10-27</guid>
+      <title>Mafia: Behind the Bloodshed - Season 1</title>
+      <link>https://dvelton.github.io/binge-ready/#show-94785-season-1</link>
+      <guid isPermaLink="false">show-94785-season-1:2026-10-27</guid>
       <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
-      <description>18 episodes are available after the 2026-10-27 finale.</description>
+      <description>4 episodes are available after the 2026-10-27 finale.</description>
+    </item>
+    <item>
+      <title>Only Fools and Horses: The Lost Archive - Season 1</title>
+      <link>https://dvelton.github.io/binge-ready/#show-94875-season-1</link>
+      <guid isPermaLink="false">show-94875-season-1:2026-10-27</guid>
+      <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
+      <description>2 episodes are available after the 2026-10-27 finale.</description>
+    </item>
+    <item>
+      <title>R.J. Decker - Season 2</title>
+      <link>https://dvelton.github.io/binge-ready/#show-84527-season-2</link>
+      <guid isPermaLink="false">show-84527-season-2:2026-10-27</guid>
+      <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
+      <description>7 episodes are available after the 2026-10-27 finale.</description>
+    </item>
+    <item>
+      <title>The Drop: A Snowfall Saga - Season 1</title>
+      <link>https://dvelton.github.io/binge-ready/#show-92751-season-1</link>
+      <guid isPermaLink="false">show-92751-season-1:2026-10-27</guid>
+      <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
+      <description>8 episodes are available after the 2026-10-27 finale.</description>
     </item>
     <item>
       <title>The One About Matthew Perry - Season 1</title>
@@ -683,27 +704,6 @@
       <guid isPermaLink="false">show-94565-season-1:2026-10-18</guid>
       <pubDate>Sun, 18 Oct 2026 12:00:00 GMT</pubDate>
       <description>6 episodes are available after the 2026-10-18 finale.</description>
-    </item>
-    <item>
-      <title>Alle mot 1 - Season 8</title>
-      <link>https://dvelton.github.io/binge-ready/#show-35603-season-8</link>
-      <guid isPermaLink="false">show-35603-season-8:2026-10-17</guid>
-      <pubDate>Sat, 17 Oct 2026 12:00:00 GMT</pubDate>
-      <description>6 episodes are available after the 2026-10-17 finale.</description>
-    </item>
-    <item>
-      <title>Holiday Touchdown - Season 2026</title>
-      <link>https://dvelton.github.io/binge-ready/#show-83636-season-2026</link>
-      <guid isPermaLink="false">show-83636-season-2026:2026-10-17</guid>
-      <pubDate>Sat, 17 Oct 2026 12:00:00 GMT</pubDate>
-      <description>1 episodes are available after the 2026-10-17 finale.</description>
-    </item>
-    <item>
-      <title>Mei Ying Shen Bu Zhi Long Zhong Que - Season 1</title>
-      <link>https://dvelton.github.io/binge-ready/#show-94838-season-1</link>
-      <guid isPermaLink="false">show-94838-season-1:2026-10-17</guid>
-      <pubDate>Sat, 17 Oct 2026 12:00:00 GMT</pubDate>
-      <description>60 episodes are available after the 2026-10-17 finale.</description>
     </item>
   </channel>
 </rss>
