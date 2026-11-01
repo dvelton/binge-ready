@@ -9,6 +9,11 @@ import {
   findMetadataShowIds,
   normalizeEpisode
 } from "../scripts/lib/finales.mjs";
+import {
+  fetchShowSeasons,
+  refreshShowSeasons,
+  TVMazeRequestError
+} from "../scripts/lib/tvmaze.mjs";
 
 function episode(overrides = {}) {
   return {
@@ -44,6 +49,60 @@ test("normalizes TVMaze schedule records", () => {
   assert.equal(result.countryCode, "Global");
   assert.equal(result.readyAt, "2026-10-02T01:00:00.000Z");
   assert.equal(result.weight, 95);
+});
+
+test("treats missing TVMaze shows as deleted metadata", async () => {
+  for (const status of [404, 410]) {
+    const result = await fetchShowSeasons("91182", async (url) => {
+      throw new TVMazeRequestError(status, url);
+    });
+
+    assert.deepEqual(result, { missing: true, seasons: [] });
+  }
+});
+
+test("does not hide other TVMaze failures", async () => {
+  await assert.rejects(
+    fetchShowSeasons("10", async (url) => {
+      throw new TVMazeRequestError(503, url);
+    }),
+    /TVMaze request failed \(503\)/
+  );
+});
+
+test("reuses and then rechecks missing-show tombstones", async () => {
+  const cached = {
+    fetchedAt: "2026-10-30T12:00:00.000Z",
+    seasons: [],
+    missing: true
+  };
+  let requests = 0;
+  const request = async () => {
+    requests += 1;
+    return [{ number: 1, episodeOrder: 8 }];
+  };
+
+  const fresh = await refreshShowSeasons({
+    showId: "91182",
+    cached,
+    updatedIds: new Set(["91182"]),
+    request,
+    now: new Date("2026-11-01T12:00:00.000Z")
+  });
+  assert.equal(fresh.fetched, false);
+  assert.equal(requests, 0);
+
+  const recovered = await refreshShowSeasons({
+    showId: "91182",
+    cached,
+    updatedIds: new Set(),
+    request,
+    now: new Date("2026-11-07T12:00:01.000Z")
+  });
+  assert.equal(recovered.fetched, true);
+  assert.equal(recovered.entry.missing, undefined);
+  assert.equal(recovered.entry.seasons.length, 1);
+  assert.equal(requests, 1);
 });
 
 test("classifies major shows using popularity and platform", () => {

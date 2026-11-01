@@ -10,6 +10,10 @@ import {
   findMetadataShowIds,
   normalizeEpisode
 } from "./lib/finales.mjs";
+import {
+  refreshShowSeasons,
+  TVMazeRequestError
+} from "./lib/tvmaze.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CACHE_DIR = path.join(ROOT, "data-cache");
@@ -99,7 +103,7 @@ async function fetchJson(url, attempt = 0) {
   }
 
   if (!response.ok) {
-    throw new Error(`TVMaze request failed (${response.status}): ${url}`);
+    throw new TVMazeRequestError(response.status, url);
   }
 
   return response.json();
@@ -205,20 +209,20 @@ async function refreshSeasons(episodes, futureEpisodes, now, today) {
 
   await mapConcurrent(showIds, 4, async (showId) => {
     const cached = cache[showId];
-    const fetchedAt = cached?.fetchedAt ? new Date(cached.fetchedAt) : null;
-    const age = fetchedAt ? Date.now() - fetchedAt.getTime() : Number.POSITIVE_INFINITY;
-    const fresh =
-      age < 24 * 60 * 60 * 1000 ||
-      (age < 7 * 24 * 60 * 60 * 1000 && !updatedIds.has(showId));
-
-    if (fresh) {
+    const result = await refreshShowSeasons({
+      showId,
+      cached,
+      updatedIds,
+      request: fetchJson
+    });
+    if (!result.fetched) {
       return;
     }
 
-    cache[showId] = {
-      fetchedAt: new Date().toISOString(),
-      seasons: await fetchJson(`${API}/shows/${showId}/seasons`)
-    };
+    if (result.entry.missing) {
+      console.warn(`Skipping missing TVMaze show ${showId}.`);
+    }
+    cache[showId] = result.entry;
     fetched += 1;
 
     if (fetched % 100 === 0) {
