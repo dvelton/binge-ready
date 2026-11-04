@@ -4,7 +4,28 @@
     <title>Binge Ready</title>
     <link>https://dvelton.github.io/binge-ready/</link>
     <description>TV seasons ordered by the date their finales aired.</description>
-    <lastBuildDate>Tue, 03 Nov 2026 12:25:02 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 12:24:39 GMT</lastBuildDate>
+    <item>
+      <title>Brothers - Season 1</title>
+      <link>https://dvelton.github.io/binge-ready/#show-68625-season-1</link>
+      <guid isPermaLink="false">show-68625-season-1:2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
+      <description>8 episodes are available after the 2026-11-04 finale.</description>
+    </item>
+    <item>
+      <title>The Greatest - Season 1</title>
+      <link>https://dvelton.github.io/binge-ready/#show-78326-season-1</link>
+      <guid isPermaLink="false">show-78326-season-1:2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
+      <description>8 episodes are available after the 2026-11-04 finale.</description>
+    </item>
+    <item>
+      <title>Чёрный пёс - Season 7</title>
+      <link>https://dvelton.github.io/binge-ready/#show-41114-season-7</link>
+      <guid isPermaLink="false">show-41114-season-7:2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
+      <description>4 episodes are available after the 2026-11-04 finale.</description>
+    </item>
     <item>
       <title>Bass X Machina - Season 1</title>
       <link>https://dvelton.github.io/binge-ready/#show-90425-season-1</link>
@@ -32,6 +53,13 @@
       <guid isPermaLink="false">show-95153-season-1:2026-11-03</guid>
       <pubDate>Tue, 03 Nov 2026 12:00:00 GMT</pubDate>
       <description>40 episodes are available after the 2026-11-03 finale.</description>
+    </item>
+    <item>
+      <title>When the Lights Rise - Season 1</title>
+      <link>https://dvelton.github.io/binge-ready/#show-94085-season-1</link>
+      <guid isPermaLink="false">show-94085-season-1:2026-11-03</guid>
+      <pubDate>Tue, 03 Nov 2026 12:00:00 GMT</pubDate>
+      <description>26 episodes are available after the 2026-11-03 finale.</description>
     </item>
     <item>
       <title>Where the Mask Ends - Season 1</title>
@@ -109,6 +137,13 @@
       <guid isPermaLink="false">show-92599-season-2:2026-11-02</guid>
       <pubDate>Mon, 02 Nov 2026 12:00:00 GMT</pubDate>
       <description>15 episodes are available after the 2026-11-02 finale.</description>
+    </item>
+    <item>
+      <title>To Be Winner - Season 1</title>
+      <link>https://dvelton.github.io/binge-ready/#show-95349-season-1</link>
+      <guid isPermaLink="false">show-95349-season-1:2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 12:00:00 GMT</pubDate>
+      <description>16 episodes are available after the 2026-11-02 finale.</description>
     </item>
     <item>
       <title>A Love Other Than Yours - Season 1</title>
@@ -669,41 +704,6 @@
       <guid isPermaLink="false">show-95027-season-1:2026-10-23</guid>
       <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
       <description>24 episodes are available after the 2026-10-23 finale.</description>
-    </item>
-    <item>
-      <title>Crimewatch Live - Season 24</title>
-      <link>https://dvelton.github.io/binge-ready/#show-17816-season-24</link>
-      <guid isPermaLink="false">show-17816-season-24:2026-10-23</guid>
-      <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
-      <description>15 episodes are available after the 2026-10-23 finale.</description>
-    </item>
-    <item>
-      <title>First Love Again - Season 1</title>
-      <link>https://dvelton.github.io/binge-ready/#show-94962-season-1</link>
-      <guid isPermaLink="false">show-94962-season-1:2026-10-23</guid>
-      <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
-      <description>24 episodes are available after the 2026-10-23 finale.</description>
-    </item>
-    <item>
-      <title>Grande de España - Season 1</title>
-      <link>https://dvelton.github.io/binge-ready/#show-94542-season-1</link>
-      <guid isPermaLink="false">show-94542-season-1:2026-10-23</guid>
-      <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
-      <description>6 episodes are available after the 2026-10-23 finale.</description>
-    </item>
-    <item>
-      <title>Honor Thy Mother - Season 1</title>
-      <link>https://dvelton.github.io/binge-ready/#show-93562-season-1</link>
-      <guid isPermaLink="false">show-93562-season-1:2026-10-23</guid>
-      <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
-      <description>14 episodes are available after the 2026-10-23 finale.</description>
-    </item>
-    <item>
-      <title>Humoretaten - Season 4</title>
-      <link>https://dvelton.github.io/binge-ready/#show-81461-season-4</link>
-      <guid isPermaLink="false">show-81461-season-4:2026-10-23</guid>
-      <pubDate>Fri, 23 Oct 2026 12:00:00 GMT</pubDate>
-      <description>8 episodes are available after the 2026-10-23 finale.</description>
     </item>
   </channel>
 </rss>
