@@ -4,7 +4,14 @@
     <title>Binge Ready</title>
     <link>https://dvelton.github.io/binge-ready/</link>
     <description>TV seasons ordered by the date their finales aired.</description>
-    <lastBuildDate>Fri, 13 Nov 2026 12:24:45 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 12:22:04 GMT</lastBuildDate>
+    <item>
+      <title>A-laget - Season 3</title>
+      <link>https://dvelton.github.io/binge-ready/#show-81827-season-3</link>
+      <guid isPermaLink="false">show-81827-season-3:2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 GMT</pubDate>
+      <description>4 episodes are available after the 2026-11-14 finale.</description>
+    </item>
     <item>
       <title>4 Blocks Zero - Season 1</title>
       <link>https://dvelton.github.io/binge-ready/#show-89896-season-1</link>
@@ -165,6 +172,13 @@
       <guid isPermaLink="false">show-82730-season-3:2026-11-12</guid>
       <pubDate>Thu, 12 Nov 2026 12:00:00 GMT</pubDate>
       <description>24 episodes are available after the 2026-11-12 finale.</description>
+    </item>
+    <item>
+      <title>Austin - Season 3</title>
+      <link>https://dvelton.github.io/binge-ready/#show-72583-season-3</link>
+      <guid isPermaLink="false">show-72583-season-3:2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 12:00:00 GMT</pubDate>
+      <description>6 episodes are available after the 2026-11-11 finale.</description>
     </item>
     <item>
       <title>ChiaroScuro - Season 1</title>
@@ -396,6 +410,13 @@
       <guid isPermaLink="false">show-95500-season-1:2026-11-09</guid>
       <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
       <description>15 episodes are available after the 2026-11-09 finale.</description>
+    </item>
+    <item>
+      <title>The Well - Season 1</title>
+      <link>https://dvelton.github.io/binge-ready/#show-95596-season-1</link>
+      <guid isPermaLink="false">show-95596-season-1:2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 12:00:00 GMT</pubDate>
+      <description>6 episodes are available after the 2026-11-09 finale.</description>
     </item>
     <item>
       <title>Wu Shen Dao - Season 1</title>
@@ -681,27 +702,6 @@
       <title>Brothers - Season 1</title>
       <link>https://dvelton.github.io/binge-ready/#show-68625-season-1</link>
       <guid isPermaLink="false">show-68625-season-1:2026-11-04</guid>
-      <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
-      <description>8 episodes are available after the 2026-11-04 finale.</description>
-    </item>
-    <item>
-      <title>Squamish Medium - Season 1</title>
-      <link>https://dvelton.github.io/binge-ready/#show-94521-season-1</link>
-      <guid isPermaLink="false">show-94521-season-1:2026-11-04</guid>
-      <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
-      <description>10 episodes are available after the 2026-11-04 finale.</description>
-    </item>
-    <item>
-      <title>Taken: Natalee Holloway - Season 1</title>
-      <link>https://dvelton.github.io/binge-ready/#show-95389-season-1</link>
-      <guid isPermaLink="false">show-95389-season-1:2026-11-04</guid>
-      <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
-      <description>3 episodes are available after the 2026-11-04 finale.</description>
-    </item>
-    <item>
-      <title>The Greatest - Season 1</title>
-      <link>https://dvelton.github.io/binge-ready/#show-78326-season-1</link>
-      <guid isPermaLink="false">show-78326-season-1:2026-11-04</guid>
       <pubDate>Wed, 04 Nov 2026 12:00:00 GMT</pubDate>
       <description>8 episodes are available after the 2026-11-04 finale.</description>
     </item>
