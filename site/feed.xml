@@ -4,7 +4,21 @@
     <title>Binge Ready</title>
     <link>https://dvelton.github.io/binge-ready/</link>
     <description>TV seasons ordered by the date their finales aired.</description>
-    <lastBuildDate>Mon, 16 Nov 2026 12:33:58 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 12:25:06 GMT</lastBuildDate>
+    <item>
+      <title>He Said, She Said: Till Death Do Us Part - Season 1</title>
+      <link>https://dvelton.github.io/binge-ready/#show-95731-season-1</link>
+      <guid isPermaLink="false">show-95731-season-1:2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+      <description>3 episodes are available after the 2026-11-17 finale.</description>
+    </item>
+    <item>
+      <title>Sunshine Through The Rain - Season 1</title>
+      <link>https://dvelton.github.io/binge-ready/#show-88889-season-1</link>
+      <guid isPermaLink="false">show-88889-season-1:2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+      <description>24 episodes are available after the 2026-11-17 finale.</description>
+    </item>
     <item>
       <title>Dalfutár - Season 12</title>
       <link>https://dvelton.github.io/binge-ready/#show-24159-season-12</link>
@@ -13,11 +27,32 @@
       <description>8 episodes are available after the 2026-11-16 finale.</description>
     </item>
     <item>
+      <title>Go Jetters - Season 4</title>
+      <link>https://dvelton.github.io/binge-ready/#show-14372-season-4</link>
+      <guid isPermaLink="false">show-14372-season-4:2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
+      <description>20 episodes are available after the 2026-11-16 finale.</description>
+    </item>
+    <item>
+      <title>Made in Chelsea - Season 32</title>
+      <link>https://dvelton.github.io/binge-ready/#show-831-season-32</link>
+      <guid isPermaLink="false">show-831-season-32:2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
+      <description>10 episodes are available after the 2026-11-16 finale.</description>
+    </item>
+    <item>
       <title>Mark of a Murderer - Season 1</title>
       <link>https://dvelton.github.io/binge-ready/#show-95691-season-1</link>
       <guid isPermaLink="false">show-95691-season-1:2026-11-16</guid>
       <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
       <description>4 episodes are available after the 2026-11-16 finale.</description>
+    </item>
+    <item>
+      <title>War of Thorns - Season 1</title>
+      <link>https://dvelton.github.io/binge-ready/#show-86784-season-1</link>
+      <guid isPermaLink="false">show-86784-season-1:2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 12:00:00 GMT</pubDate>
+      <description>25 episodes are available after the 2026-11-16 finale.</description>
     </item>
     <item>
       <title>De Verraders: De Ronde Tafel - Season 4</title>
@@ -669,41 +704,6 @@
       <guid isPermaLink="false">show-92188-season-1:2026-11-06</guid>
       <pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
       <description>24 episodes are available after the 2026-11-06 finale.</description>
-    </item>
-    <item>
-      <title>Wildlife ER - Season 4</title>
-      <link>https://dvelton.github.io/binge-ready/#show-65891-season-4</link>
-      <guid isPermaLink="false">show-65891-season-4:2026-11-06</guid>
-      <pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
-      <description>6 episodes are available after the 2026-11-06 finale.</description>
-    </item>
-    <item>
-      <title>Невский - Season 2</title>
-      <link>https://dvelton.github.io/binge-ready/#show-74578-season-2</link>
-      <guid isPermaLink="false">show-74578-season-2:2026-11-06</guid>
-      <pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
-      <description>12 episodes are available after the 2026-11-06 finale.</description>
-    </item>
-    <item>
-      <title>A visszavágó – Kapj el, ha tudsz! - Season 1</title>
-      <link>https://dvelton.github.io/binge-ready/#show-94869-season-1</link>
-      <guid isPermaLink="false">show-94869-season-1:2026-11-05</guid>
-      <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
-      <description>8 episodes are available after the 2026-11-05 finale.</description>
-    </item>
-    <item>
-      <title>Archive X: Unexplained Phenomena - Season 1</title>
-      <link>https://dvelton.github.io/binge-ready/#show-93786-season-1</link>
-      <guid isPermaLink="false">show-93786-season-1:2026-11-05</guid>
-      <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
-      <description>6 episodes are available after the 2026-11-05 finale.</description>
-    </item>
-    <item>
-      <title>Black Doves - Season 2</title>
-      <link>https://dvelton.github.io/binge-ready/#show-68407-season-2</link>
-      <guid isPermaLink="false">show-68407-season-2:2026-11-05</guid>
-      <pubDate>Thu, 05 Nov 2026 12:00:00 GMT</pubDate>
-      <description>6 episodes are available after the 2026-11-05 finale.</description>
     </item>
   </channel>
 </rss>
